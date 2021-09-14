@@ -1,0 +1,168 @@
+body{
+  text-align: center;
+}
+.navbar-brand, h1,h3{
+  font-weight: bolder;
+}
+/*title section*/
+#title {
+  background-color: #a15c38;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 3% 10%;
+  padding-bottom: 7%;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-family: "Ubuntu";
+
+}
+
+.nav-item {
+  padding: 0 8px;
+}
+
+.nav-link {
+  font-family: "ubuntu";
+  font-weight: lighter;
+}
+
+.navbar-nav {
+  margin-left: auto;
+}
+
+/*section end*/
+/*iphone*/
+.iphone {
+  transform: rotate(25deg);
+  width: 20%;
+  position: absolute;
+  right: 20%;
+}
+
+/* section end*/
+/*features*/
+#features {
+  padding: 7% 15%;
+  background: #f7f1f0;
+  position: relative;
+  z-index: 1;
+}
+
+.row {
+  margin-top: 50px;
+}
+
+.fas {
+  margin-bottom: 1rem;
+  color: #c3a6a0;
+}
+
+.fas:hover {
+  color: #a15c38;
+}
+
+/*end*/
+/*testimonial section*/
+.testimonial-image {
+  width: 20%;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#testimonials {
+  background-color: #c3a6a0;
+  color: #ffffff;
+}
+
+/* section end*/
+/*press section*/
+#press {
+  background-color: #c3a6a0;
+  padding-bottom: 3%;
+}
+
+.press-icon {
+  width: 10%;
+  margin: 20px 20px 50px;
+}
+
+/*section end*/
+/*pricing section*/
+#pricing {
+  padding: 8%;
+  background-color: #f7f1f0;
+}
+
+.pricing-col {
+  padding: 20px;
+}
+
+/*section end*/
+/*cta section*/
+.cta-button {
+  margin: 0 2%;
+}
+
+#cta {
+  background-color: #a15c38;
+  padding: 50px;
+  color: #fff;
+}
+
+.cta-text {
+  padding-bottom: 30px;
+  font-family: Montserrat-black;
+}
+
+/* section end*/
+/*footer section*/
+.footer-text {
+  font-size: 10px;
+  padding-top: 10px;
+}
+
+#footer {
+  padding-top: 50px;
+}
+
+/*section end*/
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+h1 {
+  font-family: "Montserrat-black", sans-serif;
+  font-size: 3.5rem;
+  line-height: 1.5;
+  color: #ffffff;
+}
+
+h2 {
+  font-family: "Montserrat-bold";
+  line-height: 1.5;
+  font-size: 2rem;
+}
+
+h3 {
+  font-family: "ubuntu-black";
+}
+
+@media (max-width: 1000px) {
+  .iphone {
+    position: static;
+    width: 35%;
+    transform: none;
+  }
+}
+
+p {
+  color: #8f8f8f;
+}
